@@ -1,0 +1,19 @@
+.flex-container-reverse {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+}
+
+.big-container-left {
+  flex: 70%;
+  padding: 10px;
+  text-align: left;
+}
+
+.time-text {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 200;
+  color: black;
+}
