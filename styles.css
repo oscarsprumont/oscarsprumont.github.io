@@ -26,5 +26,6 @@
 
 .title-image {
   border-radius: 20px;
-  width: 80%;
+  width: 400px;
+  height: auto;
 }
