@@ -36,6 +36,7 @@ p {
   flex-wrap: wrap;
   font-size: 30px;
   text-align: center;
+  height: 300px
 }
 
 .big-container-left {
