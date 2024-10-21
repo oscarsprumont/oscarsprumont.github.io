@@ -28,7 +28,7 @@ p {
 }
 
 .main-content {
-  padding: 15% 15%;
+  padding: 5% 5%;
 }
 
 .flex-container-reverse {
@@ -59,7 +59,7 @@ p {
 
 .title-image {
   border-radius: 20px;
-  width: 50%;
+  width: 80%;
 }
 
 @media only screen and (max-width: 550px) and (min-width: 200px){
