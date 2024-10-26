@@ -31,12 +31,18 @@ p {
   padding: 5% 5%;
 }
 
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+}
+
 .flex-container-reverse {
   display: flex;
   flex-wrap: wrap;
   font-size: 30px;
   text-align: center;
-  height: 300px
 }
 
 .big-container-left {
