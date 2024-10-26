@@ -17,37 +17,41 @@ h3 {
   font-size: 1.8rem;
   font-weight: 500;
   color: black;
-  padding-bottom: 10px;
+  font-style: italic;
+  text-align: left;
 }
+
+h4 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: black;
+  font-style: italic;
+  /* padding-bottom: 5px; */
+  text-align: left;
+}
+
 
 p {
   font-family: 'Rubik', sans-serif;
   font-size: 1.2rem;
   font-weight: 400;
-  color: black;
+  color: #404040;
+}
+
+body {
+  background-color: #FAF9F6;
 }
 
 .main-content {
   padding: 5% 5%;
 }
 
-.flex-container {
-  display: flex;
+.big-container {
   flex-wrap: wrap;
   font-size: 30px;
   text-align: center;
-}
-
-.flex-container-reverse {
-  display: flex;
-  flex-wrap: wrap;
-  font-size: 30px;
-  text-align: center;
-}
-
-.big-container-left {
-  flex: 70%;
-  padding: 10px;
+  padding-bottom: 15px;
   text-align: left;
 }
 
@@ -58,19 +62,43 @@ p {
   color: black;
 }
 
-.small-container-right {
-  flex: 30%;
-  padding: 10px;
-  text-align: right;
+.pub-title {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: black;  
 }
 
-.title-image {
+.pub-details {
+  font-family: 'Rubik', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 200;
+  color: black;  
+}
+
+.teaching-details {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+  font-weight: 200;
+  color: #404040; 
+  text-align: left; 
+}
+
+.contact-info {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+  font-weight: 100;
+  color: #404040; 
+  text-align: left; 
+}
+
+.rounded-corners {
   border-radius: 20px;
-  width: 80%;
+  height: 300px;
 }
 
 @media only screen and (max-width: 550px) and (min-width: 200px){
-  .flex-container-reverse {
+  .flex-container {
     flex-direction: column-reverse;
   }
 
