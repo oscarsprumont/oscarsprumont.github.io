@@ -7,7 +7,7 @@ h1 {
 
 h2 {
   font-family: 'Rubik', sans-serif;
-  font-size: 2.0rem;
+  font-size: 2.5rem;
   font-weight: 500;
   color: black;
 }
@@ -71,7 +71,7 @@ body {
 
 .pub-details {
   font-family: 'Rubik', sans-serif;
-  font-size: 0.8rem;
+  font-size: 1.1rem;
   font-weight: 200;
   color: black;  
 }
@@ -94,7 +94,29 @@ body {
 
 .rounded-corners {
   border-radius: 20px;
-  height: 300px;
+  height: 400px;
+}
+
+
+a.class1:link {
+  text-decoration: none;
+  color: green;
+}
+
+a.class1:visited {
+  text-decoration: none;
+  color: green;
+}
+
+
+a.class2:link {
+  text-decoration: none;
+  color: blue;
+}
+
+a.class2:visited {
+  text-decoration: none;
+  color: blue;
 }
 
 @media only screen and (max-width: 550px) and (min-width: 200px){
