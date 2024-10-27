@@ -119,6 +119,18 @@ a.class2:visited {
   color: blue;
 }
 
+a.class3:link {
+  color: blue;
+  text-decoration: none;
+  border-bottom: 2px solid blue; 
+}
+
+a.class3:visited {
+  color: blue;
+  text-decoration: none;
+  border-bottom: 2px solid blue; 
+}
+
 @media only screen and (max-width: 550px) and (min-width: 200px){
   .flex-container {
     flex-direction: column-reverse;
