@@ -131,6 +131,16 @@ a.class3:visited {
   border-bottom: 2px solid blue; 
 }
 
+a.class4:link {
+  text-decoration: none;
+  color: black;
+}
+
+a.class4:visited {
+  text-decoration: none;
+  color: black;
+}
+
 @media only screen and (max-width: 550px) and (min-width: 200px){
   .flex-container {
     flex-direction: column-reverse;
