@@ -151,6 +151,34 @@ a.class5:visited {
   color: cornflowerblue;
 }
 
+a.class6:link {
+  text-decoration: none;
+  color: rgb(63, 14, 81);
+}
+
+a.class6:visited {
+  text-decoration: none;
+  color: purple;
+}
+
+a.class7:link {
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+}
+
+a.class7:visited {
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+}
+
+a.class7 {
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+}
+
 @media only screen and (max-width: 550px) and (min-width: 200px){
   .big-container-left {
     flex: 100%;
